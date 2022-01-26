@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body .page1 {
+  background: -webkit-gradient(linear, left top, right bottom, from(black), to(gray)), url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+  background: linear-gradient(to right bottom, black, gray), url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+  background-blend-mode: screen;
+  background-size: cover;
+  min-height: 450px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body .page1 .welcome, body .page1 .pp1 {
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+body .page1 .pp1 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+body .page1 a {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+}
+
+body .page1 a:hover {
+  background-color: white;
+  color: black;
+}
+
+body .page2 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .page2 .Web {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+  padding: 2rem 0 0;
+}
+
+body .page2 .pp2 {
+  -webkit-columns: 2;
+          columns: 2;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  padding: 2rem 10rem;
+  text-align: center;
+}
+
+body .page3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333;
+  height: 500px;
+  width: 100%;
+  grid-column-gap: 2rem;
+  padding: 2rem 5rem;
+}
+
+body .page3 img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .page3 .card1 {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .page3 .card1 h2, body .page3 .card1 p {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 1rem;
+}
+
+body .page3 .card1 p {
+  line-height: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+body .page3 .card2 {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .page3 .card2 h2, body .page3 .card2 p {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 1rem;
+}
+
+body .page3 .card2 p {
+  line-height: 1.3rem;
+  padding-bottom: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .page3 .card3 {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .page3 .card3 h2, body .page3 .card3 p {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 1rem;
+}
+
+body .page3 .card3 p {
+  line-height: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+body .page4 {
+  display: -ms-grid;
+  display: grid;
+}
+
+body .page4 .p4h {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+body .page4 .p4p {
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+}
+
+body .page5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+body .page5 .leftContact {
+  background-color: #2c8ac7;
+  color: white;
+}
+
+body .page5 .p5h {
+  padding: 2rem;
+}
+
+body .page5 .p5p {
+  padding: 3rem;
+}
+
+body .page5 .rightCompany {
+  background-color: #333;
+  color: white;
+}
+
+body .page5 .p5h2 {
+  padding: 2rem;
+}
+
+body .page5 .p5p2 {
+  padding: 2rem;
+}
+
+body .footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  background-color: black;
+  padding: 2rem;
+}
+
+body .footer .left {
+  color: white;
+  font-size: 1.1em;
+}
+
+body .footer .right {
+  color: white;
+  font-size: 1.1em;
+}
+
+body .footer .right > a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .page2 .pp2 {
+    -webkit-columns: 1 !important;
+            columns: 1 !important;
+    padding: 3rem 2rem !important;
+    line-height: 1.5rem;
+  }
+  .page3 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding: 2rem 1rem !important;
+    height: 100% !important;
+    grid-gap: 1rem !important;
+  }
+  .page3 img {
+    height: 100% !important;
+  }
+  .page3 h2 {
+    padding: 2rem 0 !important;
+  }
+  .page3 p {
+    padding: 0 2.5rem 3rem !important;
+    line-height: 1.5rem !important;
+  }
+  .page4 {
+    padding: 1rem 0;
+  }
+  .page4 .p4p {
+    padding: 0 3.5rem 3rem !important;
+    line-height: 1.3rem;
+  }
+  .page5 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .page5 .rightCompany {
+    padding: 2rem;
+  }
+  .page5 .rightCompany p {
+    line-height: 1.5rem;
+  }
+  .footer {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding: 3rem !important;
+    grid-gap: .5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
